@@ -27,7 +27,9 @@ It's likely desirable for your Apache www-root directory and MySQL data director
       sudo chmod -R 770 ~/www; sudo chown -R www-data. ~/www
 
 6. [Optional] Stop the lamp docker container instance:
+
       docker stop lamp
 
 7. [Optional] Delete the lamp docker container instance (after stopping it)
+
       docker rm lamp
