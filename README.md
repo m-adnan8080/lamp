@@ -23,6 +23,7 @@ It's likely desirable for your Apache www-root directory and MySQL data director
       --name lamp adnan80/lamp
 
 5. Must have at least read permissions for ~/www on the host system. Generally, it's enough to do:
+
       sudo chmod -R 770 ~/www; sudo chown -R www-data. ~/www
 
 6. [Optional] Stop the lamp docker container instance:
