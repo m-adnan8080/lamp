@@ -22,8 +22,11 @@ It's likely desirable for your Apache www-root directory and MySQL data director
       -v ~/www:/var/www/html -v ~/mysql:/var/lib/mysql \
       --name lamp adnan80/lamp
 
-5. [Optional] Stop the lamp docker container instance:
+5. Must have at least read permissions for ~/www on the host system. Generally, it's enough to do:
+      sudo chmod -R 770 ~/www; sudo chown -R www-data. ~/www
+
+6. [Optional] Stop the lamp docker container instance:
       docker stop lamp
 
-6. [Optional] Delete the lamp docker container instance (after stopping it)
+7. [Optional] Delete the lamp docker container instance (after stopping it)
       docker rm lamp
