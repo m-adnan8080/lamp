@@ -1,4 +1,4 @@
-FROM ubuntu-updated
+FROM ubuntu
 
 MAINTAINER m.adnan80@gmail.com
 
