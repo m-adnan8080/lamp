@@ -1,4 +1,4 @@
-# lamp
+# LAMP Stack in docker container
 LAMP Server on Ubuntu 16.04 with nano, git, PHP-7.0, Apache2, MySQL-5.7 and phpMyAdmin
 
 # Usage
